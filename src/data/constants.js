@@ -6,6 +6,7 @@ import img5 from '../images/img5.png';
 import img6 from '../images/img6.jpg';
 import img7 from '../images/img7.png';
 import img8 from '../images/img8.png';
+import img9 from '../images/img9.jpg';
 
 export const Bio = {
   name: "Falguni Rawat",
@@ -269,29 +270,18 @@ export const education = [
 
 
 export const projects = [
+  
   {
-    id: 9,
-    title: "Resume Builder",
+    id: 6,
+    title: "Travel-Booking System",
     date: "2023",
     description:
-      "React-based resume builder is a web app that uses React's components to create, customize, and preview professional resumes with ease and speed.",
-    image:img1,
-    // tags: [
-    //   "Docker",
-    //   "AWS",
-    //   "DuckDNS",
-    //   "Eslint",
-    //   "Husky",
-    //   "CI/CD",
-    //   "React Js",
-    //   "MongoDb",
-    //   "Node Js",
-    //   "Express Js",
-    //   "Redux",
-    // ],
-    // category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    // webapp: "https://trackify.duckdns.org",
+      "MERN stack project on tours & travels booking website using react js, node js,  express js, MongoDB, JWT,and cookies with modern UI and UX",
+    image:img9,
+    // tags: ["React Js", "API", "Axios", "Node JS"],
+    category: "web app",
+    github: "https://github.com/rishavchanda/Breaking-Bad",
+   
   },
   {
     id: 0,
@@ -304,6 +294,16 @@ export const projects = [
     github: "https://github.com/rishavchanda/Podstream",
     // webapp: "https://podstream.netlify.app/",
     
+  },
+  {
+    id: 9,
+    title: "Resume Builder",
+    date: "2023",
+    description:
+      "React-based resume builder is a web app that uses React's components to create, customize, and preview professional resumes with ease and speed.",
+    image:img1,
+    github: "https://github.com/rishavchanda/Trackify",
+    // webapp: "https://trackify.duckdns.org",
   },
   {
     id: 1,
@@ -390,19 +390,7 @@ export const projects = [
     github: "https://github.com/rishavchanda/Todo-Web-App",
     // webapp: "https://rishav-react-todo.netlify.app/",
   },
-  // {
-  //   id: 6,
-  //   title: "",
-  //   date: "",
-  //   description:
-  //     "",
-  //   image:
-  //     "",
-  //   // tags: ["React Js", "API", "Axios", "Node JS"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Breaking-Bad",
-  //   webapp: "https://breaking-bad-webapp.netlify.app",
-  // },
+  
   // {
   //   id: 7,
   //   title: "Quiz App",
